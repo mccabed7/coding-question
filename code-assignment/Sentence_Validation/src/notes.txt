@@ -1,0 +1,13 @@
+#Notes
+#Running time
+Best case performance:
+    O(1) (for example if a sentence doesn't have a capital letter)
+
+Worst case performance:
+    O(a * b) = O(n)
+    a = amount of words
+    b = average word length
+    n = length of sentence
+    It loops through each word in the sentence, and goes through each letter of the words
+    This equals to going through each character in the sentence once
+    => O(n) performance
